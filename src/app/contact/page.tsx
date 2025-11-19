@@ -31,7 +31,7 @@ export default function Contact() {
           {/* Contact Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12">
             {/* Email Card */}
-            <div className="group relative">
+            <div className="group relative animate-slide-up delay-100">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl sm:rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 border border-blue-100 hover:shadow-blue-500/20 transition-all duration-500">
                 <div className="flex items-start gap-4 sm:gap-6">
@@ -69,7 +69,7 @@ export default function Contact() {
             </div>
 
             {/* WhatsApp Card */}
-            <div className="group relative">
+            <div className="group relative animate-slide-up delay-200">
               <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl sm:rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               <div className="relative bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 border border-green-100 hover:shadow-green-500/20 transition-all duration-500">
                 <div className="flex items-start gap-4 sm:gap-6">
@@ -104,7 +104,7 @@ export default function Contact() {
           </div>
 
           {/* Address Card - Full Width */}
-          <div className="group relative mb-8 sm:mb-12">
+          <div className="group relative mb-8 sm:mb-12 animate-slide-up delay-300">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl sm:rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
             <div className="relative bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-10 border border-blue-100 hover:shadow-blue-500/20 transition-all duration-500">
               <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 lg:gap-8">
@@ -151,7 +151,7 @@ export default function Contact() {
           </div>
 
           {/* Operating Hours Card */}
-          <div className="group relative">
+          <div className="group relative animate-slide-up delay-400">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl sm:rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
             <div className="relative bg-white/80 backdrop-blur-xl rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-10 border border-blue-100 hover:shadow-blue-500/20 transition-all duration-500">
               <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 lg:gap-8">

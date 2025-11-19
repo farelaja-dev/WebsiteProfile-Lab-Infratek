@@ -46,10 +46,13 @@ export default function Gallery() {
 
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {currentItems.map((imageNumber) => (
+            {currentItems.map((imageNumber, index) => (
               <div
                 key={imageNumber}
-                className="relative group cursor-pointer"
+                className={`relative group cursor-pointer animate-slide-up delay-${Math.min(
+                  index * 100,
+                  600
+                )}`}
                 onMouseEnter={() => setHoveredCard(imageNumber)}
                 onMouseLeave={() => setHoveredCard(null)}
               >

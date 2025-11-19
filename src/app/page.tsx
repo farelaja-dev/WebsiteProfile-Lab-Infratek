@@ -34,23 +34,18 @@ export default function Home() {
           </div>
 
           {/* Video Profile Section */}
-          <div className="mb-12 sm:mb-16">
+          <div className="mb-12 sm:mb-16 animate-slide-up delay-100">
             <div className="max-w-4xl mx-auto">
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl sm:rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-all duration-500"></div>
                 <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden border border-blue-100">
                   <div className="relative aspect-video bg-black">
-                    <video
-                      controls
-                      className="w-full h-full object-cover"
-                      poster="/assets/images/video/thumbnail.jpg"
-                    >
-                      <source
-                        src="/assets/images/video/profil.mp4"
-                        type="video/mp4"
-                      />
-                      Browser Anda tidak mendukung pemutaran video.
-                    </video>
+                    <iframe
+                      src="https://drive.google.com/file/d/1NqLQRuKgSbMU847hw6hhs9eLYbUC7QYe/preview"
+                      className="w-full h-full"
+                      allow="autoplay"
+                      allowFullScreen
+                    ></iframe>
                   </div>
                   <div className="p-4 sm:p-6 text-center bg-gradient-to-br from-white to-blue-50">
                     <h3 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
@@ -71,7 +66,7 @@ export default function Home() {
           </div>
 
           {/* Team Title Section */}
-          <div className="text-center mb-8 sm:mb-12">
+          <div className="text-center mb-8 sm:mb-12 animate-slide-up delay-200">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-4">
               <div className="bg-gradient-to-br from-blue-500 to-blue-700 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg shadow-blue-500/30">
                 <svg
@@ -101,7 +96,7 @@ export default function Home() {
           {/* Team Section - Kepala Lab & Pranata Lab */}
           <div className="flex justify-center gap-4 sm:gap-6 lg:gap-8 mb-12 sm:mb-20 flex-wrap px-2">
             {/* Kepala Lab */}
-            <div className="group relative w-full sm:w-80 lg:w-96">
+            <div className="group relative w-full sm:w-80 lg:w-96 animate-slide-up delay-300">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl sm:rounded-3xl blur-xl opacity-30 group-hover:opacity-50 transition-all duration-500"></div>
               <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-blue-500/30">
                 {/* Photo Container - 1:1 Aspect Ratio */}
@@ -131,7 +126,7 @@ export default function Home() {
             </div>
 
             {/* Pranata Lab */}
-            <div className="group relative w-full sm:w-80 lg:w-96">
+            <div className="group relative w-full sm:w-80 lg:w-96 animate-slide-up delay-400">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl sm:rounded-3xl blur-xl opacity-30 group-hover:opacity-50 transition-all duration-500"></div>
               <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-blue-500/30">
                 {/* Photo Container - 1:1 Aspect Ratio */}
@@ -162,7 +157,7 @@ export default function Home() {
           </div>
 
           {/* About Section */}
-          <div className="bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl p-12 mb-16 border border-blue-100 relative overflow-hidden group hover:shadow-blue-500/20 transition-all duration-500">
+          <div className="bg-white/80 backdrop-blur-xl rounded-3xl shadow-2xl p-12 mb-16 border border-blue-100 relative overflow-hidden group hover:shadow-blue-500/20 transition-all duration-500 animate-slide-up delay-500">
             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-300/20 rounded-full blur-3xl -z-0 group-hover:scale-150 transition-all duration-700"></div>
             <div className="relative z-10">
               <h2 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
@@ -210,7 +205,7 @@ export default function Home() {
           {/* Visi Misi Section */}
           <div className="grid md:grid-cols-2 gap-8">
             {/* Visi */}
-            <div className="relative group">
+            <div className="relative group animate-slide-up delay-600">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-500 rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               <div className="relative bg-gradient-to-br from-white to-blue-50 rounded-3xl shadow-xl p-8 border border-blue-100 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-500">
                 <div className="flex items-center gap-4 mb-6">
@@ -248,7 +243,7 @@ export default function Home() {
             </div>
 
             {/* Misi */}
-            <div className="relative group">
+            <div className="relative group animate-slide-up delay-600">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
               <div className="relative bg-gradient-to-br from-white to-blue-50 rounded-3xl shadow-xl p-8 border border-blue-100 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-500">
                 <div className="flex items-center gap-4 mb-6">

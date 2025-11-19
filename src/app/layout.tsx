@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lab INFRATEK",
+  title: "LAB INFRATEK",
   description:
     "Laboratorium Infrastruktur Teknologi - Fakultas Ilmu Komputer Universitas Jember",
   icons: {
-    icon: "/assets/images/logo/infratek.jpg",
+    icon: "/infratek.jpg",
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body
